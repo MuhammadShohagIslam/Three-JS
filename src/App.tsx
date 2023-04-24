@@ -1,10 +1,15 @@
-import BirdOrangeCanvas from "./components/BirdOrange/BirdOrange"
+// import BirdOrangeCanvas from "./components/ThreeJS/BirdOrange/BirdOrange"
+import Rotation from "./components/RScrollPrallax/Rotation/Rotation";
+
 const App = () => {
   return (
    <>
-    <BirdOrangeCanvas/>
+    {/* <BirdOrangeCanvas/> */}
+    <Rotation/>
    </>
   )
 }
 
 export default App
+
+

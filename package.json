@@ -13,10 +13,12 @@
     "@react-three/drei": "^9.65.5",
     "@react-three/fiber": "^8.12.2",
     "@types/three": "^0.150.2",
+    "classnames": "^2.3.2",
     "framer-motion": "^10.12.4",
     "maath": "^0.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scroll-parallax": "^3.4.2",
     "three": "^0.151.3"
   },
   "devDependencies": {
