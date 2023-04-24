@@ -9,8 +9,16 @@ const Rotation = () => {
     const parallax = useParallax<HTMLDivElement>({
         // rotate: [290, 432],
         // rotateY:[0,360],
-        rotateZ:[0,720],
+        // rotateZ:[0,720],
         // rotateX:[0,720],
+        // scale:[0, 2],
+        // scaleX:[0, 2],
+        // scaleY:[0, 2],
+        // opacity:[0, 2],
+        // translateX:["0%", "100%"],
+        translateX:["0px", "800px"],
+        // translateY:["0px", "-800px"],
+        // opacity:[0, 2],
         shouldAlwaysCompleteAnimation: true,
     });
 
