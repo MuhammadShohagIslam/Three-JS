@@ -7,7 +7,10 @@ const shared =
 
 const Rotation = () => {
     const parallax = useParallax<HTMLDivElement>({
-        rotate: [0, 360],
+        // rotate: [290, 432],
+        // rotateY:[0,360],
+        rotateZ:[0,720],
+        // rotateX:[0,720],
         shouldAlwaysCompleteAnimation: true,
     });
 
